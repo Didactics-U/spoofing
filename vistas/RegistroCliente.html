@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/css-estilos.css" type="text/css" media="all"/>
+        <script src="../controladores/controladorcliente2.js"></script>         
+		<script type="text/javascript" src="../controladores/js/jQuery.js"></script>
+	
+        <title>DATOS</title>
+    </head>
+    <body>
+    <form class="formulario">
+        <div>
+            <h2>ACTUALIZA TUS DATOS</h2>
+        </div>
+        <div>
+            <label for="cedula">Cedula</label>
+            <input type="number" id="cedula" placeholder="CC del cliente"  >
+        </div>
+        <div >
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" >
+        </div>
+        <div >
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" id="apellido"  placeholder="Apellido">
+        </div>
+        <div >
+         <label for="email">Email</label>
+            <input type="text" class="form-control" id="email"  placeholder="Email">
+            
+        </div>
+	<input type="button" class="boton" value="Guardar" onclick="validarcliente()" onsubmit="false">
+    <input type="button" class="boton" value="Buscar" onclick="validarclientebuscar()" onsubmit="false">
+    <input type="button" class="boton" value="Actualizar" onclick="validarclienteactualizar()" onsubmit="false">
+    <input type="button" class="boton" value="Eliminar" onclick="validarclienteeliminar()" onsubmit="false">
+    <input type="button" class="boton" onclick = "location='../modelos/listar_clientes.php'" value="Listar">
+	</form>
+   
+	
+	<div id="mensaje">Aqui va el mensaje</div>
+	
+    </body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helveltica, sans-serif;
+}
+form{
+    border: 2px solid #f1f1f1;
+}
+input[type=text], input[type=number], input[type=date], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button,a{
+    background-color: #4CAF70;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.boton,a{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: auto;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+.boton,a{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.formulario{
+    width: 500px;
+    height: 600px;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
